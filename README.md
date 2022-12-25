@@ -71,7 +71,7 @@ minutes: 0
 
 The intention is to have some rudimentary output for evaluation or debugging of a specific api or endpoint.
 
-## usage docs from scirpt
+## usage docs from script
 ```
 usage:
 required options:
@@ -80,7 +80,7 @@ required options:
 other options:
   -h --help                     display this help message
 
-  -b --requestBody              the body of the request to send with the request
+  -b --requestBody              the body of the request to send with the request (supports a file with '@./filepath' syntax)
   -c --concurrentRequestCount   the number of requests to send concurrently, default 20
   -f --outputFileNameSuffix     file the reponse body, default 'output', resulting in ouput in the output directory of "\${id}_\${outputFileNameSuffix}"
   -k --contentType              the value to put the in the contentType header, default is application/json
