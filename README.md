@@ -72,6 +72,7 @@ minutes: 0
 The intention is to have some rudimentary output for evaluation or debugging of a specific api or endpoint.
 
 ## usage docs from scirpt
+```
 usage:
 required options:
   -u --url                      the endpoint to hit (should be http or https)
@@ -86,6 +87,5 @@ other options:
   -m --requestMethod            the request method (GET, POST, PUT ...etc) default 'GET'
   -s --sleepTime                how many seconds to sleep between checking if the requests have completed, default 5
   -t --timeOut                  how many seconds before the script should stop checking for completions and kill outstanding requests, default 60s
-
-
+```
   
