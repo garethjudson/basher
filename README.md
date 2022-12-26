@@ -37,7 +37,7 @@ tot:        5
 ```
 
 The output structure of the above:
-report -> 
+```report -> 
   run_status ->
     8224 ->
       0_output
@@ -50,7 +50,7 @@ report ->
       3_stats.txt
       4_output
       4_stats.txt
-
+```
 Where the x_output files contain the html output body and the x_stats.txt are formated as follows:
 ```
 endpoint: https://www.google.com
