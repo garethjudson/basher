@@ -98,4 +98,4 @@ build the container
 run it with docker e.g.:
 
 
-`docker run -v ./report:/report -u www.google.com`
+`docker run -v "$(pwd)/report":/report basher -u www.google.com`
