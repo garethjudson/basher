@@ -88,4 +88,14 @@ other options:
   -s --sleepTime                how many seconds to sleep between checking if the requests have completed, default 5
   -t --timeOut                  how many seconds before the script should stop checking for completions and kill outstanding requests, default 60s
 ```
-  
+## Docker Instructions
+Don't want to install dependencies! No worries, Included a dockerfile. Build it yourself:
+build the container
+
+`docker build -t basher .`
+
+
+run it with docker e.g.:
+
+
+`docker run -v ./report:/report -u www.google.com`
