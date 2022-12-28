@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 function output_basher_usage() {
   cat <<END
-  basher is a script to launch concurrent load against a restful endpoint
+  basher is a script to launch concurrent load against an http endpoint
   it's not intended as a full load testing suite
   sometimes you just want to gauge rough performance, or easily generate load for debugging without using/learning/setting up a whole load test framework.
 
@@ -25,7 +25,7 @@ END
 
 function output_requester_usage() {
   cat <<END
-  requester is a script that wraps a curl command. It does some rudimentary timing, records the output of the curl request and some additional information.
+  requester is a script that wraps a curl command. It does some rudimentary timing, records the output of the http requests and some additional information.
 
   usage:
   required options:
